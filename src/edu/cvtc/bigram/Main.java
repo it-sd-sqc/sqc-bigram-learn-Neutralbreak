@@ -177,7 +177,6 @@ public class Main {
     }
     aWord = aWord.trim();
     if (aWord.isEmpty()) return result;
-
     Statement command = db.createStatement();
     String query = MessageFormat.format("""
       INSERT INTO words (string)
