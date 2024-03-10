@@ -141,6 +141,7 @@ public class Main {
     }
 
     int w0 = getId(db, scanner.next());
+
     while (scanner.hasNext()) {
       int w1 = getId(db, scanner.next());
       addBigram(db, w0, w1);
@@ -188,10 +189,12 @@ public class Main {
     ResultSet rows = command.executeQuery(MessageFormat.format(
       "SELECT id FROM words WHERE string = ''{0}''",
       aWord));
+
     if (rows.next()) {
       result = rows.getInt("id");
     }
-
     return result;
   } // end of getId
+
+
 }

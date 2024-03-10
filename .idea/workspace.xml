@@ -34,14 +34,17 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.edu.cvtc.bigram.Main.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.MainTest.addBigram.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.createBigrams.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.createBigramsEmpty.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.MainTest.createBigramsSingle.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.createConnection.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.getId (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.getId.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.mainArgs.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.MainTest.reset.executor&quot;: &quot;Run&quot;,
@@ -79,11 +82,31 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.getId">
-    <configuration name="edu.cvtc.bigram.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest.getId (1)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.cvtc.bigram.Main" />
       <module name="sqc-bigram-learn" />
-      <option name="PROGRAM_PARAMETERS" value="sample-texts/empty.txt" />
+      <option name="PROGRAM_PARAMETERS" value="sample-texts/testtrigram3.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.cvtc.bigram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.cvtc.bigram.Main" />
+      <module name="sqc-bigram-learn" />
+      <option name="PROGRAM_PARAMETERS" value="sample-texts/testtrigram.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.cvtc.bigram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +121,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.addBigram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqc-bigram-learn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="addBigram" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.createBigrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqc-bigram-learn" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.getId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.getId (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqc-bigram-learn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
@@ -118,30 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.reset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sqc-bigram-learn" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="reset" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.edu.cvtc.bigram.Main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MainTest.addBigram" />
+      <item itemvalue="JUnit.MainTest.getId (1)" />
       <item itemvalue="JUnit.MainTest.createBigrams" />
-      <item itemvalue="JUnit.MainTest.reset" />
-      <item itemvalue="JUnit.MainTest.getId" />
       <item itemvalue="JUnit.MainTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.getId" />
+        <item itemvalue="JUnit.MainTest.getId (1)" />
         <item itemvalue="JUnit.MainTest.createBigrams" />
-        <item itemvalue="Application.edu.cvtc.bigram.Main" />
-        <item itemvalue="JUnit.MainTest.reset" />
-        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.addBigram" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +191,12 @@
       <workItem from="1708374488821" duration="1831000" />
       <workItem from="1709083287805" duration="6866000" />
       <workItem from="1709126977872" duration="5224000" />
-      <workItem from="1709246764789" duration="328000" />
+      <workItem from="1709246764789" duration="1209000" />
+      <workItem from="1709600390460" duration="169000" />
+      <workItem from="1709686536090" duration="9000" />
+      <workItem from="1709771436986" duration="8992000" />
+      <workItem from="1709818584744" duration="23629000" />
+      <workItem from="1710080533991" duration="445000" />
     </task>
     <servers />
   </component>
